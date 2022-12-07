@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+p{
+    margin: 20px;
+}
+.principal{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(224, 244, 245), rgb(189, 231, 231));
+    box-shadow: 5px 5px 5px rgba(105, 133, 141, 0.493);
+}
+header{
+    box-shadow: 5px 5px 5px rgba(51, 75, 95, 0.664);
+}
+.logo img{
+    width:25%;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+    padding-left: 50px;
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+}
+.navegacao a:hover{
+    color: blue;
+    background-color: black;
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+img{
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 50px;
+}
+.isc{
+    text-align: center;
+}
+.assifusa{
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .principal, body{
+        width:100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
